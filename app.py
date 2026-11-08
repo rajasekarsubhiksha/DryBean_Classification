@@ -80,22 +80,18 @@ BEAN_CLASSES = [
 
 st.markdown("""
 <style>
-
-.main-title {
-    font-size: 36px;
-    font-weight: bold;
-    color: #176B45;
+[data-testid="stMetric"] {
+    background-color: #E8F5E9;
+    padding: 20px;
+    border-radius: 12px;
 }
 
-.subtitle {
-    font-size: 16px;
-    color: #777777;
+[data-testid="stMetricLabel"] {
+    color: #263238 !important;
 }
 
-div[data-testid="stMetric"] {
-    background-color: #F1F8F4;
-    padding: 15px;
-    border-radius: 10px;
+[data-testid="stMetricValue"] {
+    color: #1B5E20 !important;
 }
 
 </style>
